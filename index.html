@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="script/script.js" defer></script>
+    <title>Фотообои</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__block container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12 logo-block">
+            <a href="#" class="logo-block_logo">Logo</a>
+            <p class="logo-block_about">Фабрика фотообоев в Киеве<br/>изготовление фотообоев</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 call-block">
+            <p class="call-block_phone">044 278 21 00</p>
+            <a href="#" class="call-block_callback">Обратный звонок</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  <section class="main-block" id="main-block">
+    <div class="main-block__navigation">
+      <nav class="main-block__navigation__nav container">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="main-block__navigation__nav__list">
+          <li class="main-block__navigation__nav__list_link active"><a href="#">главная</a></li>
+          <li class="main-block__navigation__nav__list_link"><a href="#">для детской</a></li>
+          <li class="main-block__navigation__nav__list_link"><a href="#">для спальни</a></li>
+          <li class="main-block__navigation__nav__list_link"><a href="#">для кухни</a></li>
+          <li class="main-block__navigation__nav__list_link"><a href="#">контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main-block__presentation">
+      <div class="main-block__presentation_shadow"></div>
+      <div class="main-block__presentation_about container">
+        <div class="main-block__presentation_line"></div>
+        <h1 class="main-block__presentation_title">фотообои</h1>
+        <div class="main-block__presentation_room"><span id="room">Для зала</span> <hr></div>
+        <div class="main-block__presentation_price"><span class="small-letters">от</span> <span id="price">50</span> <span class="small-letters">$/м2</span></div>
+      </div>
+      <div class="main-block__presentation__info container">
+        <p class="main-block__presentation__info_ideas">Более 6000 идей фотообоев для гостиной</p>
+        <a class="main-block__presentation__info_button" href="#">Смотреть идеи</a>
+
+        <div class="main-block__presentation__slider">
+          <button class="main-block__presentation__slider_button-left" disabled id="btn-left"><img src="images/button-left.png" alt="img"></button>
+          <ul class="main-block__presentation__slider_checkbox">
+            <li class="checkbox active"><span></span></li>
+            <li class="checkbox"><span></span></li>
+            <li class="checkbox"><span></span></li>
+            <li class="checkbox"><span></span></li>
+          </ul>
+          <button class="main-block__presentation__slider_button-right" id="btn-right"><img src="images/button-right.png" alt="img"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-block__services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <img src="images/Shape-10.png" alt="image">
+            <h4>Печатаем что угодно</h4>
+            <p>Все фотообои мы изготавливаем под заказ на собственном оборудовании. По этому можем напечатать совершенно все, что вы захотите</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="images/Shape-11.png" alt="image">
+            <h4>Любые размеры</h4>
+            <p>Профессиональное оборудование позволяет напечатать фотообои совершенно любого размера. Можем заклеить как часть, таки все стену без ограничений.</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="images/Shape-12.png" alt="image">
+            <h4>Изготовление за 1 день</h4>
+            <p>В среднем, изготовление одних фотообоев среднего размера занимает не более одного дня!</p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="images/Shape-13.png" alt="image">
+            <h4>Без посредников</h4>
+            <p>Мы имеем в наличие все необходимое оборудование для самостоятельного изготовления фотообоев. А значит вы не переплачиваете посредникам.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
